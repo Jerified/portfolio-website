@@ -2,8 +2,8 @@
 
 import React, { useState } from 'react'
 import Link from 'next/link'
-// import AnimatedLink from './AnimatedLink'
-// import { motion } from 'framer-motion'
+import AnimatedLink from './AnimatedLink'
+import { motion } from 'framer-motion'
 import { usePathname } from 'next/navigation'
 
 const navLinks = [
