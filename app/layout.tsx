@@ -1,11 +1,18 @@
 import './globals.css'
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
+import { Roboto } from "@next/font/google"
 import Navbar from './components/Navbar'
 
 
 
 const inter = Inter({ subsets: ['latin'] })
+
+const text = Roboto({
+  subsets: ['latin'],
+  weight: ['400'],
+  variable: "--roboto-font"
+})
 
 export const metadata: Metadata = {
   title: 'E-commerce',
@@ -19,9 +26,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className=''>
-      <body className={` ${inter.className} bg-orange-500`} >
-        <main className="lg:max-w-6xl md:mx-w-4xl mx-auto">
-          <Navbar />
+      <body className={` ${text.className} bg-black`} >
+        <main className="">
+          
           {children}
         </main>
         {/* <Footer /> */}
