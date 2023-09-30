@@ -71,7 +71,7 @@ const Navbar = () => {
             initial="initial"
             animate="animate"
             exit="exit"
-            className="fixed left-0 top-0 w-full h-[100dvh] origin-top bg-orange-500 text-black p-10"
+            className="fixed z-50 left-0 top-0 w-full h-[100dvh] origin-top bg-orange-500 text-black p-10"
           >
             <div className="flex h-full flex-col">
               <div className="flex justify-between">
