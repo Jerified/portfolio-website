@@ -52,7 +52,7 @@ const Navbar = () => {
                         )
                     })}
                 </ul>
-                <button className="text-white text-sm px-3 py-2 bg-[#9796F0] rounded-full">
+                <button className="text-white text-sm px-3 py-2 [background:linear-gradient(-69.74deg,_#100d7f,_rgba(178,_147,_147,_0.28)_40.52%,_rgba(198,_198,_198,_0))] rounded-[28px]">
                     Get Resume
                 </button>
             </div>
@@ -71,7 +71,7 @@ const Navbar = () => {
             initial="initial"
             animate="animate"
             exit="exit"
-            className="fixed left-0 top-0 w-full h-screen origin-top bg-orange-500 text-black p-10"
+            className="fixed left-0 top-0 w-full h-[100dvh] origin-top bg-orange-500 text-black p-10"
           >
             <div className="flex h-full flex-col">
               <div className="flex justify-between">

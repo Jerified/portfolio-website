@@ -8,6 +8,12 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      "colors": {
+        "white": "#fff",
+        "gray": "rgba(0, 0, 0, 0.73)",
+        "orangered": "#ff6525",
+        "black": "#000"
+        },
     },
   },
   plugins: [],
