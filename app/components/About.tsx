@@ -17,8 +17,8 @@ const About = () => {
         <div className="relative w-full h-[32.5rem] px">
       			<div className="absolute top-[0rem] left-[0rem] bg-orangered w-full md:w-[25rem] lg:w-[30.94rem] md:h-[25rem] lg:h-[29.94rem]" />
       			<div className="absolute top-[2.38rem] md:left-[4rem] lg:left-[5.19rem] w-full h-full md:w-[25rem] lg:w-[30.94rem] md:h-[25rem] lg:h-[29.94rem] overflow-hidden ">
-        				<div className="absolute md:top-[0.19rem] bg-black w-full h-[20rem] md:w-[25rem] lg:w-[30.94rem] md:h-[25rem] lg:h-[29.94rem] " />
-        				<Image  src="/assets/img2.png" width={439} height={457} alt='about-img' className='absolute top-[0rem] h-[20rem] w-full md:left-[1.81rem] md:w-[23.31rem] md:h-[25.25rem] lg:w-[27.31rem] lg:h-[30.13rem] object-cover'/>
+        				<div className="absolute md:top-[0.19rem] bg-black w-full h-full md:w-[25rem] lg:w-[30.94rem] md:h-[25rem] lg:h-[29.94rem] " />
+        				<Image  src="/assets/img2.png" width={439} height={457} alt='about-img' className='absolute top-[0rem] h-full w-full md:left-[1.81rem] md:w-[23.31rem] md:h-[25.25rem] lg:w-[27.31rem] lg:h-[30.13rem] object-cover'/>
       			</div>
     		</div>
           <div className="pt-16 md:pt-0 md:max-w- mx-aut">
