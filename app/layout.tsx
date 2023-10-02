@@ -27,10 +27,7 @@ export default function RootLayout({
   return (
     <html lang="en" className=''>
       <body className={` ${text.className} bg-black`} >
-        <main className="">
-          
           {children}
-        </main>
         {/* <Footer /> */}
       </body>
     </html>

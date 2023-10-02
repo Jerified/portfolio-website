@@ -35,7 +35,7 @@ const Navbar = () => {
 
   return (
     <header>
-      <nav className="flex justify-between items-center py-8 lg:py-8 px-6 lg:max-w-6xl md:mx-w-4xl mx-auto">
+      <nav className="flex justify-between items-center py-8 lg:py-8 max-w-6xl px-6 mx-auto">
       <p className={`text-3xl font-semibold text-white ${text.className}`}>Blessing.</p>
             <div className="hidden md:flex justify-center items-center gap-7">
                 <ul className="flex gap-4 uppercase">
