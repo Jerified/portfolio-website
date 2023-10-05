@@ -4,7 +4,8 @@ import { motion, useAnimation, useInView } from 'framer-motion'
 import { useRef, useEffect } from 'react'
 
 type TProps = {
-    text: React.ReactElement | React.ReactElement[],
+    // text: React.ReactElement | React.ReactElement[],
+    text: string | string[],
     className: string,
     el?: keyof JSX.IntrinsicElements,
     once?: boolean,
@@ -25,7 +26,8 @@ const defaultAnimations = {
     }
 }
 
-const AnimatedText = ({ text, className, el: Wrapper = 'p', once, repeatDelay }: TProps) => {
+const AnimatedText = ({ className, el: Wrapper = 'p', once, repeatDelay, text }: TProps) => {
+    // const text = <p><span>Crafting</span> meaningful <br/> And impartful <br /> designs.</p>
     const controls = useAnimation()
     const textArray = Array.isArray(text) ? text : [text]
     const ref = useRef(null)

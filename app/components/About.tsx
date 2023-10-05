@@ -13,7 +13,7 @@ const About = () => {
   return (
     <div id='#about' className="bg-white relative w-full  overflow-hidden ">
       <div className="px-6 max-w-6xl mx-auto">
-        <div className="lg:grid grid-cols-2 justify-between items-center lg:max-xl:gap-32 gap-28 py-6 md:py-12 items-cente mx-6 lg:mx-0 flex-col">
+        <div className="lg:grid grid-cols-2 justify-between items-center lg:max-xl:gap-[12rem] gap-28 py-6 md:py-12 items-cente mx-6 lg:mx-0 flex-col">
           <div className="relative w-full h-[25rem] md:h-[32.5rem] flex justify-center items-center order2">
             <div className="absolute top-[0rem] left-[0rem] bg-orangered w-full md:w-[25rem] lg:w-[30.94rem] md:h-[25rem] lg:h-[29.94rem]" />
             <div className="absolute top-[2.38rem] md:left-[4rem] lg:left-[5.19rem] w-full h-full md:w-[25rem] lg:w-[30.94rem] md:h-[25rem] lg:h-[29.94rem] overflow-hidden ">
