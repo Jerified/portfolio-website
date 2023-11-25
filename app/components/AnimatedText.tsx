@@ -65,9 +65,9 @@ const AnimatedText = ({ className, el: Wrapper = 'p', once, repeatDelay, text }:
                     aria-hidden className="">
                     {textArray.map((line, index) => (
                         <span className="block" key={index}>
-                            {line.split(" ").map((word, index) => (
+                            {line.split(" ").map((word: any, index: number) => (
                                 <span key={index} className='inline-block'>
-                                    {word.split("").map((char, index: number) => (
+                                    {word.split("").map((char: any, index: number) => (
                                         <motion.span
                                             className='inline-block'
                                             variants={defaultAnimations} key={index}>
