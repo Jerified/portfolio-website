@@ -9,7 +9,7 @@ const Projects = () => {
             <ProjectDetail title={"Ibronlink Web-App"} description={"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore itaque unde error officiis fugiat doloribus architecto libero illo molestias id doloremque, quis velit, consectetur nostrum natus in! Necessitatibus, soluta dolor."} image={"/assets/img1.png"} buttonText={"Learn More"}  />
         </div>
         <div className="">
-            <ProjectDetail title={"Ibronlink Web-App"} description={"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore itaque unde error officiis fugiat doloribus architecto libero illo molestias id doloremque, quis velit, consectetur nostrum natus in! Necessitatibus, soluta dolor."} image={"/assets/img1.png"} buttonText={"Learn More"}  />
+            <ProjectDetail title={"Ibronlink Web-App"} description={"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore itaque unde error officiis fugiat doloribus architecto libero illo molestias id doloremque, quis velit, consectetur nostrum natus in! Necessitatibus, soluta dolor."} image={"/assets/img3.png"} buttonText={"Learn More"}  />
         </div>
         <div className="">
             <ProjectDetail title={"Ibronlink Web-App"} description={"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore itaque unde error officiis fugiat doloribus architecto libero illo molestias id doloremque, quis velit, consectetur nostrum natus in! Necessitatibus, soluta dolor."} image={"/assets/img1.png"} buttonText={"Learn More"}  />

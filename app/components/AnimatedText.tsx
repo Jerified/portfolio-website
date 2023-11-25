@@ -4,8 +4,7 @@ import { motion, useAnimation, useInView } from 'framer-motion'
 import { useRef, useEffect } from 'react'
 
 type TProps = {
-    // text: React.ReactElement | React.ReactElement[],
-    text: string | string[],
+    text: string
     className: string,
     el?: keyof JSX.IntrinsicElements,
     once?: boolean,
@@ -21,13 +20,12 @@ const defaultAnimations = {
         opacity: 1,
         y: 0,
         transition: {
-            duration: 0.1
+            duration: 1
         }
     }
 }
 
 const AnimatedText = ({ className, el: Wrapper = 'p', once, repeatDelay, text }: TProps) => {
-    // const text = <p><span>Crafting</span> meaningful <br/> And impartful <br /> designs.</p>
     const controls = useAnimation()
     const textArray = Array.isArray(text) ? text : [text]
     const ref = useRef(null)
@@ -69,7 +67,7 @@ const AnimatedText = ({ className, el: Wrapper = 'p', once, repeatDelay, text }:
                         <span className="block" key={index}>
                             {line.split(" ").map((word, index) => (
                                 <span key={index} className='inline-block'>
-                                    {word.split("").map((char, index) => (
+                                    {word.split("").map((char, index: number) => (
                                         <motion.span
                                             className='inline-block'
                                             variants={defaultAnimations} key={index}>

@@ -40,7 +40,7 @@ const Navbar = () => {
             <div className="hidden md:flex justify-center items-center gap-7">
                 <ul className="flex gap-4 uppercase">
                     {navLinks.map((link, i): any => {
-                        return (
+                        return ( 
                             <Link href={link.href} className="relative" key={link.title}>
                                 {link.href === path && (
                                     <motion.span
