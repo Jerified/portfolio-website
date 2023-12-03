@@ -49,7 +49,7 @@ const AnimatedText = ({ className, el: Wrapper = 'p', once, repeatDelay, text }:
         }
 
         return () => clearTimeout(timeout)
-    }, [IsInView])
+    }, [IsInView, controls, repeatDelay])
 
     return (
         <div className='max-w-4xl mx-auto'>
